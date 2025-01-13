@@ -22,7 +22,7 @@ on:
         - mailticking
         - fakemail
         - inboxes
-        default: developermail
+        default: fakemail
       key_type:
         description: 'Modes of operation'
         required: true
@@ -40,7 +40,7 @@ on:
         - macOS
         - Linux
         - Windows
-        default: macOS
+        default: Windows
 jobs:
   Linux:
     runs-on: ubuntu-latest
